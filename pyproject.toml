@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "semistatic_cfr"
+version = "0.1.0"
+description = ""
+authors = ["JokusPokus <jakob.schmitt@code.berlin>"]
+readme = "README.md"
+packages = [{include = "semistatic_cfr"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+absl-py = "^1.2.0"
+attrs = "^22.1.0"
+isort = "^5.10.1"
+numpy = "^1.23.3"
+open-spiel = "^1.2"
+torch = "^1.12.1"
+scipy = "^1.9.1"
+typing-extensions = "4.3.0"
+pandas = "^1.5.2"
+bootstrapped = "^0.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

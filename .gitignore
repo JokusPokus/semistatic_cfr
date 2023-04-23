@@ -1,0 +1,7 @@
+venv
+*.csv
+*.json
+*.txt
+*.obj
+*/.python-version
+__pycache__/
